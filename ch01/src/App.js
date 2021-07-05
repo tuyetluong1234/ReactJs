@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Course from './components/Course'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
+    <div className="row">
+      <Course name="ReactJS" time="30h" free="true">ReactJS is very simple !!</Course>
+      <Course name="Angular" time="55h" free="false"></Course>
+      <Course name="NodeJs" time="35h" free="true"></Course>
     </div>
   );
 }
